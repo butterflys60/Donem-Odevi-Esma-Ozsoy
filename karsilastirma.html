@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Motosiklet ve scooter modelleri arasında karşılaştırma yapmanızı sağlayan detaylı bilgi platformu">
+    <title>Karşılaştırma - İki Tekerlekli</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>İki Tekerlekli</h1>
+                <p>Motosiklet ve Scooter Rehberi</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="motosiklet.html">Motosikletler</a></li>
+                    <li><a href="scooter.html">Scooterlar</a></li>
+                    <li><a href="karsilastirma.html" class="active">Karşılaştırma</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Karşılaştırma</h1>
+            <p>Motosiklet ve scooter modellerini özelliklerine göre karşılaştırın ve ihtiyacınıza en uygun aracı bulun</p>
+        </div>
+    </section>
+
+    <section class="comparison-intro">
+        <div class="container">
+            <h2 class="section-title">Motosiklet vs Scooter</h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Özellik</th>
+                            <th>Motosiklet</th>
+                            <th>Scooter</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Sürüş Pozisyonu</strong></td>
+                            <td>Daha sportif, bacaklar her iki yanda</td>
+                            <td>Daha dik oturma pozisyonu, bacaklar önde</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vites</strong></td>
+                            <td>Manuel vites (çoğunlukla)</td>
+                            <td>Otomatik şanzıman (CVT)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Motor Gücü</strong></td>
+                            <td>Genellikle daha yüksek</td>
+                            <td>Genellikle daha düşük</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Yakıt Tüketimi</strong></td>
+                            <td>Ortalama 3.5-5 L/100km</td>
+                            <td>Ortalama 2-3 L/100km</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Manevra Kabiliyeti</strong></td>
+                            <td>Yüksek hızlarda daha iyi</td>
+                            <td>Şehir içinde daha çevik</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tekerlek Boyutu</strong></td>
+                            <td>Büyük (17-19 inç)</td>
+                            <td>Küçük (10-16 inç)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Depolama Alanı</strong></td>
+                            <td>Sınırlı, ek çanta gerekebilir</td>
+                            <td>Koltuk altı bagaj alanı</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ağırlık</strong></td>
+                            <td>Genellikle daha ağır</td>
+                            <td>Genellikle daha hafif</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Kullanım Zorluğu</strong></td>
+                            <td>Başlangıçta daha zor öğrenme eğrisi</td>
+                            <td>Daha kolay öğrenilir ve kullanılır</td>
+                        </tr>
+                        <tr>
+                            <td><strong>İdeal Kullanım</strong></td>
+                            <td>Uzun yol, spor sürüş, hobi</td>
+                            <td>Şehir içi, günlük ulaşım</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="comparison-tool">
+        <div class="container">
+            <h2 class="section-title">Araç Karşılaştırma Aracı</h2>
+            <div class="tool-container">
+                <p class="tool-intro">İki farklı motosiklet veya scooter modelini karşılaştırmak için aşağıdaki aracı kullanabilirsiniz.</p>
+                <form id="compare-form">
+                    <div class="form-group">
+                        <label for="vehicle1">1. Araç</label>
+                        <select id="vehicle1" required>
+                            <option value="">Araç Seçin</option>
+                            <optgroup label="Motosikletler">
+                                <option value="honda-cbr650r">Honda CBR650R</option>
+                                <option value="yamaha-mt-07">Yamaha MT-07</option>
+                                <option value="kawasaki-z900">Kawasaki Z900</option>
+                                <option value="bmw-r1250gs">BMW R 1250 GS</option>
+                                <option value="ducati-panigale-v4">Ducati Panigale V4</option>
+                            </optgroup>
+                            <optgroup label="Scooterlar">
+                                <option value="honda-pcx125">Honda PCX 125</option>
+                                <option value="yamaha-nmax">Yamaha NMAX 125</option>
+                                <option value="vespa-gts300">Vespa GTS 300</option>
+                                <option value="suzuki-burgman400">Suzuki Burgman 400</option>
+                                <option value="bmw-c400x">BMW C 400 X</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="vehicle2">2. Araç</label>
+                        <select id="vehicle2" required>
+                            <option value="">Araç Seçin</option>
+                            <optgroup label="Motosikletler">
+                                <option value="honda-cbr650r">Honda CBR650R</option>
+                                <option value="yamaha-mt-07">Yamaha MT-07</option>
+                                <option value="kawasaki-z900">Kawasaki Z900</option>
+                                <option value="bmw-r1250gs">BMW R 1250 GS</option>
+                                <option value="ducati-panigale-v4">Ducati Panigale V4</option>
+                            </optgroup>
+                            <optgroup label="Scooterlar">
+                                <option value="honda-pcx125">Honda PCX 125</option>
+                                <option value="yamaha-nmax">Yamaha NMAX 125</option>
+                                <option value="vespa-gts300">Vespa GTS 300</option>
+                                <option value="suzuki-burgman400">Suzuki Burgman 400</option>
+                                <option value="bmw-c400x">BMW C 400 X</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Karşılaştır</button>
+                </form>
+
+                <div id="comparison-loading" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p>Karşılaştırma yapılıyor...</p>
+                </div>
+
+                <div id="comparison-results" style="display: none;">
+                    <h3>Karşılaştırma Sonuçları</h3>
+                    <div class="results-container">
+                        <div class="result-vehicle">
+                            <img src="img/vehicle-placeholder.jpg" alt="Araç 1" id="vehicle1-img">
+                            <h4 id="vehicle1-name">Honda PCX 125</h4>
+                            <table class="specs-table">
+                                <tr>
+                                    <td>Motor Hacmi</td>
+                                    <td id="vehicle1-engine">125 cc</td>
+                                </tr>
+                                <tr>
+                                    <td>Motor Gücü</td>
+                                    <td id="vehicle1-power">12.1 hp @ 8,500 rpm</td>
+                                </tr>
+                                <tr>
+                                    <td>Yakıt Tüketimi</td>
+                                    <td id="vehicle1-fuel">2.1 L/100km</td>
+                                </tr>
+                                <tr>
+                                    <td>Ağırlık</td>
+                                    <td id="vehicle1-weight">130 kg</td>
+                                </tr>
+                                <tr>
+                                    <td>Depo Kapasitesi</td>
+                                    <td id="vehicle1-tank">8 L</td>
+                                </tr>
+                                <tr>
+                                    <td>0-100 km/s</td>
+                                    <td id="vehicle1-acceleration">14.2 saniye</td>
+                                </tr>
+                                <tr>
+                                    <td>Fiyat</td>
+                                    <td id="vehicle1-price">₺95,000</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="result-comparison">
+                            <div class="comparison-item" id="engine-comparison">
+                                <span class="item-name">Motor</span>
+                                <div class="comparison-bars">
+                                    <div class="bar bar1" style="width:25%"></div>
+                                    <div class="bar bar2" style="width:75%"></div>
+                                </div>
+                            </div>
+                            <div class="comparison-item" id="power-comparison">
+                                <span class="item-name">Güç</span>
+                                <div class="comparison-bars">
+                                    <div class="bar bar1" style="width:20%"></div>
+                                    <div class="bar bar2" style="width:80%"></div>
+                                </div>
+                            </div>
+                            <div class="comparison-item" id="economy-comparison">
+                                <span class="item-name">Ekonomi</span>
+                                <div class="comparison-bars">
+                                    <div class="bar bar1" style="width:70%"></div>
+                                    <div class="bar bar2" style="width:30%"></div>
+                                </div>
+                            </div>
+                            <div class="comparison-item" id="handling-comparison">
+                                <span class="item-name">Kullanım</span>
+                                <div class="comparison-bars">
+                                    <div class="bar bar1" style="width:65%"></div>
+                                    <div class="bar bar2" style="width:55%"></div>
+                                </div>
+                            </div>
+                            <div class="comparison-item" id="features-comparison">
+                                <span class="item-name">Özellikler</span>
+                                <div class="comparison-bars">
+                                    <div class="bar bar1" style="width:45%"></div>
+                                    <div class="bar bar2" style="width:75%"></div>
+                                </div>
+                            </div>
+                            <div class="comparison-item" id="value-comparison">
+                                <span class="item-name">Fiyat/Performans</span>
+                                <div class="comparison-bars">
+                                    <div class="bar bar1" style="width:60%"></div>
+                                    <div class="bar bar2" style="width:50%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="result-vehicle">
+                            <img src="img/vehicle-placeholder.jpg" alt="Araç 2" id="vehicle2-img">
+                            <h4 id="vehicle2-name">Yamaha MT-07</h4>
+                            <table class="specs-table">
+                                <tr>
+                                    <td>Motor Hacmi</td>
+                                    <td id="vehicle2-engine">689 cc</td>
+                                </tr>
+                                <tr>
+                                    <td>Motor Gücü</td>
+                                    <td id="vehicle2-power">74.8 hp @ 9,000 rpm</td>
+                                </tr>
+                                <tr>
+                                    <td>Yakıt Tüketimi</td>
+                                    <td id="vehicle2-fuel">4.2 L/100km</td>
+                                </tr>
+                                <tr>
+                                    <td>Ağırlık</td>
+                                    <td id="vehicle2-weight">184 kg</td>
+                                </tr>
+                                <tr>
+                                    <td>Depo Kapasitesi</td>
+                                    <td id="vehicle2-tank">14 L</td>
+                                </tr>
+                                <tr>
+                                    <td>0-100 km/s</td>
+                                    <td id="vehicle2-acceleration">3.8 saniye</td>
+                                </tr>
+                                <tr>
+                                    <td>Fiyat</td>
+                                    <td id="vehicle2-price">₺325,000</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="comparison-conclusion">
+                        <h4>Karşılaştırma Sonucu</h4>
+                        <p id="comparison-summary">Bu iki araç farklı kullanım amaçlarına yönelik tasarlanmıştır. Honda PCX 125, şehir içi kullanım için ekonomik ve pratik bir seçenek sunarken, Yamaha MT-07 daha sportif bir sürüş deneyimi ve şehir dışı kullanım için güç ve performans sunmaktadır. Seçiminiz kullanım amacınıza ve bütçenize göre değişebilir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="buying-factors">
+        <div class="container">
+            <h2 class="section-title">Satın Alma Kriterleri</h2>
+            <p class="factors-intro">İki tekerlekli bir araç satın alırken, ihtiyaçlarınıza ve tercihlerinize en uygun aracı seçmek için aşağıdaki faktörleri göz önünde bulundurmalısınız.</p>
+            
+            <div class="factors-grid">
+                <div class="factor-card">
+                    <div class="factor-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3>Kullanım Amacı</h3>
+                    <p>Aracı hangi amaçla kullanacağınız (günlük ulaşım, spor sürüş, uzun yol) seçiminizi doğrudan etkileyecektir.</p>
+                </div>
+                <div class="factor-card">
+                    <div class="factor-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Motor Hacmi ve Güç</h3>
+                    <p>Deneyiminize ve kullanım amacınıza uygun motor hacmi ve güç seviyesini belirlemelisiniz.</p>
+                </div>
+                <div class="factor-card">
+                    <div class="factor-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Bütçe</h3>
+                    <p>Sadece satın alma maliyeti değil, yakıt, bakım, sigorta ve vergi gibi işletme maliyetlerini de göz önünde bulundurun.</p>
+                </div>
+                <div class="factor-card">
+                    <div class="factor-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Fiziksel Özellikler</h3>
+                    <p>Boyunuza ve fiziksel yapınıza uygun bir araç seçimi konfor ve güvenlik açısından önemlidir.</p>
+                </div>
+                <div class="factor-card">
+                    <div class="factor-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Bakım Kolaylığı</h3>
+                    <p>Bakım maliyetleri, yedek parça bulunabilirliği ve servis ağı gibi faktörleri değerlendirin.</p>
+                </div>
+                <div class="factor-card">
+                    <div class="factor-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Güvenlik Özellikleri</h3>
+                    <p>ABS, çekiş kontrolü gibi güvenlik sistemleri ve araç güvenilirliğini araştırın.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Gelişmelerden Haberdar Olun</h2>
+            <p>En yeni model karşılaştırmaları ve iki tekerlekli dünyasındaki gelişmeler için bültenimize abone olun.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="E-posta adresiniz" required>
+                <button type="submit" class="btn">Abone Ol</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>İki Tekerlekli</h2>
+                    <p>Motosiklet ve Scooter Rehberi</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Hızlı Erişim</h3>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="motosiklet.html">Motosikletler</a></li>
+                        <li><a href="scooter.html">Scooterlar</a></li>
+                        <li><a href="karsilastirma.html">Karşılaştırma</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>İletişim</h3>
+                    <p><i class="fas fa-envelope"></i> info@ikitekerlekli.com</p>
+                    
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 İki Tekerlekli - Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
