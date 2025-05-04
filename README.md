@@ -61,10 +61,3 @@ proje/
 - İnteraktif karşılaştırma grafikleri
 - Forum ve topluluk özellikleri
 
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
-
-## İletişim
-
-İletişim için info@ikitekerlekli.com adresine e-posta gönderebilirsiniz. 
