@@ -44,17 +44,6 @@ proje/
     └── ...
 ```
 
-## Kurulum
-
-1. Projeyi klonlayın:
-   ```
-   git clone https://github.com/kullaniciadi/iki-tekerlekli.git
-   ```
-
-2. Projeyi tarayıcınızda açın:
-   ```
-   index.html
-   ```
 
 ## Kullanım
 
